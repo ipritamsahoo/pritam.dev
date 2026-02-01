@@ -693,6 +693,7 @@ ul {
 
 .form-group input,
 .form-group textarea {
+    width: 100%;
     background: rgba(255, 255, 255, 0.02);
     border-color: var(--card-border);
     border-radius: 12px;
