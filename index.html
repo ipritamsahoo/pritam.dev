@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pritam | Developer Portfolio</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="background-gradient">
+        <div class="blob b-1"></div>
+        <div class="blob b-2"></div>
+        <div class="blob b-3"></div>
+    </div>
+
+    <nav class="navbar">
+        <div class="nav-content">
+            <a href="#hero" class="logo">Pritam<span class="dot">.</span></a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="theme-toggle" aria-label="Toggle Theme">
+                <i class="ph ph-moon"></i>
+            </button>
+            <div class="mobile-menu-btn">
+                <i class="ph ph-list"></i>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="container">
+                <div class="hero-grid">
+                    <div class="hero-content">
+                        <span class="greeting">Hello, I'm</span>
+                        <h1 class="title">Pritam <br> <span class="highlight">Full Stack Developer</span></h1>
+                        <p class="subtitle">Building digital experiences with modern technologies. Focused on creating
+                            intuitive and dynamic user interfaces.</p>
+                        <div class="hero-buttons">
+                            <a href="#projects" class="btn btn-primary">View Work</a>
+                            <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <img src="assets/images/profile-pic.jpeg" alt="Pritam - Full Stack Developer">
+                    </div>
+                </div>
+                <!-- Abstract visual decoration -->
+                <!-- Abstract visual decoration -->
+                <!-- Blobs moved to global background-gradient in body -->
+
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">About Me</h2>
+                </div>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p>I'm a passionate developer based in India, specializing in building web applications that are
+                            both functional and aesthetically pleasing.</p>
+                        <p>With a strong foundation in the MERN stack (MongoDB, Express, React, Node.js), I love turning
+                            complex problems into simple, beautiful, and intuitive designs.</p>
+                        <div class="stats-grid">
+                            <div class="stat-card">
+                                <h3>2+</h3>
+                                <p>Years Experience</p>
+                            </div>
+                            <div class="stat-card">
+                                <h3>10+</h3>
+                                <p>Projects Completed</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Featured Projects</h2>
+                </div>
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <article class="project-card">
+                        <div class="project-image">
+                            <div class="placeholder-img color-1"></div>
+                        </div>
+                        <div class="project-content">
+                            <h3>E-Commerce Platform</h3>
+                            <p>A full-featured shopping platform built with React and Redux. Features cart
+                                functionality, user payments, and admin dashboard.</p>
+                            <div class="tags">
+                                <span>React</span>
+                                <span>Redux</span>
+                                <span>Node.js</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="link"><i class="ph ph-github-logo"></i> Code</a>
+                                <a href="#" class="link"><i class="ph ph-arrow-square-out"></i> Live</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 2 -->
+                    <article class="project-card">
+                        <div class="project-image">
+                            <div class="placeholder-img color-2"></div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Task Management App</h3>
+                            <p>Productivity application with drag-and-drop features, real-time updates, and team
+                                collaboration tools.</p>
+                            <div class="tags">
+                                <span>TypeScript</span>
+                                <span>React</span>
+                                <span>Firebase</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="link"><i class="ph ph-github-logo"></i> Code</a>
+                                <a href="#" class="link"><i class="ph ph-arrow-square-out"></i> Live</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 3 -->
+                    <article class="project-card">
+                        <div class="project-image">
+                            <div class="placeholder-img color-3"></div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Social Media Dashboard</h3>
+                            <p>Analytics dashboard aggregating data from multiple platforms into visualization charts.
+                            </p>
+                            <div class="tags">
+                                <span>Vue.js</span>
+                                <span>D3.js</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="link"><i class="ph ph-github-logo"></i> Code</a>
+                                <a href="#" class="link"><i class="ph ph-arrow-square-out"></i> Live</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Tech Stack</h2>
+                </div>
+                <div class="skills-wrapper">
+                    <div class="skill-category">
+                        <h3>Frontend</h3>
+                        <div class="skill-list">
+                            <span><i class="devicon-html5-plain"></i> HTML5</span>
+                            <span><i class="devicon-css3-plain"></i> CSS3</span>
+                            <span><i class="devicon-javascript-plain"></i> JavaScript</span>
+                            <span><i class="devicon-react-original"></i> React</span>
+                            <span><i class="devicon-tailwindcss-original"></i> Tailwind</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Backend</h3>
+                        <div class="skill-list">
+                            <span><i class="devicon-nodejs-plain"></i> Node.js</span>
+                            <span><i class="devicon-express-original"></i> Express</span>
+                            <span><i class="devicon-mongodb-plain"></i> MongoDB</span>
+                            <span><i class="devicon-postgresql-plain"></i> PostgreSQL</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Tools</h3>
+                        <div class="skill-list">
+                            <span><i class="devicon-git-plain"></i> Git</span>
+                            <span><i class="devicon-vscode-plain"></i> VS Code</span>
+                            <span><i class="devicon-figma-plain"></i> Figma</span>
+                            <span><i class="devicon-postman-plain"></i> Postman</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="container">
+                <div class="contact-wrapper">
+                    <div class="contact-info">
+                        <h2>Let's work together</h2>
+                        <p>Have a project in mind or just want to say hi? Feel free to reach out.</p>
+                        <div class="contact-method">
+                            <div class="icon-box"><i class="ph ph-envelope"></i></div>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:pritamsahoo449@gmail.com">pritamsahoo449@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="icon-box"><i class="ph ph-map-pin"></i></div>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Kolkata, India</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" placeholder="John Doe" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="john@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" rows="5" placeholder="Tell me about your project..."
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2026 Pritam. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="https://github.com/ipritamsahoo"><i class="ph ph-github-logo"></i></a>
+                    <a href="https://www.linkedin.com/in/ipritamsahoo"><i class="ph ph-linkedin-logo"></i></a>
+                    <a href="#"><i class="ph ph-twitter-logo"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
