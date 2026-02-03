@@ -438,27 +438,7 @@ ul {
     margin-top: 4rem;
 }
 
-.stat-card {
-    padding: 2rem;
-    background: var(--card-bg);
-    border: 1px solid var(--card-border);
-    border-radius: 20px;
-    text-align: center;
-    transition: var(--transition);
-}
 
-.stat-card:hover {
-    transform: translateY(-5px);
-    border-color: var(--accent-color);
-    background: var(--card-hover-bg);
-}
-
-.stat-card h3 {
-    font-size: 3.5rem;
-    font-weight: 700;
-    color: var(--text-primary);
-    margin-bottom: 0.5rem;
-}
 
 
 
@@ -927,7 +907,7 @@ footer {
 .timeline-date {
     display: inline-block;
     font-size: 0.85rem;
-    color: var(--accent-color);
+    color: var(--text-secondary);
     margin-bottom: 0.5rem;
     font-weight: 500;
 }
@@ -940,7 +920,7 @@ footer {
 
 .timeline-company {
     font-size: 1rem;
-    color: var(--text-primary);
+    color: var(--accent-color);
     font-weight: 500;
     margin-bottom: 1rem;
 }
@@ -1130,4 +1110,33 @@ footer {
     border-color: var(--accent-color);
     color: var(--text-primary);
     background: rgba(255, 255, 255, 0.05);
+}
+
+.unified-card.stat-layout {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2.5rem 2rem;
+}
+
+.unified-card.stat-layout .card-content {
+    align-items: center;
+    justify-content: center;
+    flex: unset;
+    /* Don't expand to fill available height like standard cards */
+}
+
+.stat-number {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 0.5rem;
+    line-height: 1;
+}
+
+.stat-label {
+    font-size: 1rem;
+    color: var(--text-secondary);
+    margin: 0;
 }
