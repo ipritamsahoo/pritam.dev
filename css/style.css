@@ -899,6 +899,8 @@ footer {
     .theme-toggle {
         margin: 0 1rem 0 auto;
         /* push to right provided flex context */
+        width: 40px;
+        height: 40px;
     }
 
     /* Typography & Spacing */

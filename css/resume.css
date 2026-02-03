@@ -164,7 +164,7 @@
 }
 
 .cert-card:hover {
-    transform: translateY(-3px);
+    transform: translateY(-5px);
     border-color: var(--text-primary);
     background: var(--card-hover-bg);
 }
